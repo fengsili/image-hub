@@ -1,0 +1,12 @@
+{
+  "build": {
+    "command": "npm run build",
+    "dist": "build",
+    "env": {
+      "EDGEONE_DOMAIN": "your-edgeone-domain.eo.page",
+      "GITHUB_TOKEN": "$GITHUB_TOKEN",
+      "REPO_OWNER": "$REPO_OWNER",
+      "REPO_NAME": "$REPO_NAME"
+    }
+  }
+}
